@@ -1,0 +1,32 @@
+/*
+
+em HTML e ID = em CSS e # (apenas um elemento)
+em HTML e CLASS e em CSS e . (varios elementos)
+*/
+
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: burlywood;
+}
+.principal {
+    color: aquamarine;
+    text-align: center;
+}
+
+h2 {
+    color: chocolate;
+}
+
+.paragrafo {
+    color: whitesmoke;
+}
+
+.destaque {
+    background-color: rgba(49, 141, 221, 0.788);
+}

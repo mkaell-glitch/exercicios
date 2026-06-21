@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+        SETORES PERSONALIDOS
+        #  = id
+        .  = class
+        :: =  pseudo-element
+        > = chilldren
+
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: aqua;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: rgb(207, 220, 20);
+        }
+        a::before {
+            content: '--->';
+        }
+        a::after {
+            content: '<---';
+        }
+        .especial {
+            background-color: rgba(233, 126, 126, 0.829);
+        }
+        </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavogunabara.gtihub.io" target="_blank">repositorio github</a></li>
+        <li class="especial"><a href="https://www.youtube.com/@cursoemvideo" target="_blank">canal do youtube</a></li>
+    </ul>
+</body>
+</html>

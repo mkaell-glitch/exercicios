@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: blueviolet;
+        }
+
+        h1 {
+            box-shadow: 5px 4px 10px black;
+            max-width: max-content;
+        }
+
+        header {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            border-style: dotted;
+            border-color: blue;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.342);
+            }
+
+        footer {
+            background-color:white;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        nav {
+            padding: 10px;
+            text-align: center;
+            box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.637);
+        }
+
+        article {
+            background-color: aquamarine;
+        }
+
+        article > aside {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        footer > p {
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">DESENVOLVIDO POR MICAEL E CURSO EM VIDEO</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>artigo sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eveniet repellat magnam, autem eos, doloribus non totam quaerat distinctio maiores sit culpa quidem officiis eum dolor esse soluta odit veritatis.</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, et accusantium nisi iure nulla id? Eos asperiores possimus iusto illum hic ea, nam dolorem temporibus unde odio minima molestiae aut!</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h2>desenvolvido pelo curso em video</h2>
+    </footer>
+</body>
+</html>
