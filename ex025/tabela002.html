@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -24,6 +25,23 @@
             color: white;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+
         tfoot {
             background-color: gray;
             color: white;
@@ -31,6 +49,7 @@
 
         td.num {
             text-align: right;
+            width: 50px;
         }
     </style>
 </head>
@@ -38,10 +57,11 @@
     <h1>uso de tabelas grandes</h1>
 
     <table>
+        <caption>populaçao das unidades federativas</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>populaçao</th>
+                <th scope="col">estado</th>
+                <th scope="col">populaçao</th>
             </tr>
         </thead>
         <tbody>
@@ -59,13 +79,231 @@
                 <td>rio de janeiro</td>
                 <td class="num">17 Milhoes</td>
             </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 Milhoes</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 Milhoes</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>83 Milhoes</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur qui dolores excepturi nobis maiores veritatis, deserunt hic facere quasi quis modi quae saepe libero doloremque vero quam soluta aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam repellendus rem nisi cum qui, quos quae blanditiis in explicabo eius saepe odit veritatis laboriosam? Temporibus, deleniti architecto. Quod, obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam commodi corporis voluptatem ab doloremque, nesciunt reprehenderit modi! Doloremque eveniet saepe quia nobis aliquam illo quis! Possimus fugit delectus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, harum possimus quam quod dignissimos ratione, maxime incidunt ad inventore praesentium optio voluptates quos vero rem eos dolor veritatis eum dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi corporis eligendi laboriosam eius ipsam doloremque veritatis deserunt, itaque eum voluptatum cum rerum? Consequuntur eos in vitae minus saepe mollitia?</p>
 </body>
 </html>
