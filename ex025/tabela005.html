@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>execicio de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th,td {
+            border: 1px solid black;
+        }
+
+        tr.destaque {
+            background-color: aquamarine;
+        }
+
+        col.cnome {
+            background-color: blueviolet;
+        }
+
+        col.csexo {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr class="destaque">
+            <td>jose oliveira</td>
+            <td>M</td>
+            <td>34</td>
+            <td>pedreiro</td>
+        </tr>
+        <tr>
+            <td>mario de souza</td>
+            <td>M</td>
+            <td>19</td>
+            <td>professor</td>
+        </tr>
+        <tr class="destaque">
+            <td>daniela cardoso</td>
+            <td>F</td>
+            <td>42</td>
+            <td>agricultora</td>
+        </tr>
+        <tr>
+            <td>matheus cardoso</td>
+            <td>M</td>
+            <td>27</td>
+            <td>criador de conteudo</td>
+        </tr>
+    </table>
+</body>
+</html>
