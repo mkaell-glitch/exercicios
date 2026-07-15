@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+
+        <p>
+            <label for="inum">numero:</label>
+            <input type="range" name="range" id="irange" value="50" min="0" max="100" oninput="ival.innerHTML = Number(irange.value)">
+            <output id="ival">50</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
